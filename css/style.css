@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.marco {
+  min-width: 650px;
+  width: 650px;
+  height: 35vh;
+  border-radius: 20px;
+  margin: 2% auto;
+  border: 5px solid #35342a;
+}
+
+.izq {
+  float: left;
+  width: 30%;
+  height: 100%;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  background-image: url("/img/background.png");
+  background-position: left -130px;
+}
+
+.der {
+  float: right;
+  position: relative;
+  width: 70%;
+  height: 100%;
+  background-color: #d4d3c2;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+h1 {
+  padding: 30px 30px 0;
+  font-weight: 900;
+}
+
+p {
+  padding: 20px 30px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.link {
+  position: absolute;
+  bottom: 35px;
+  margin: 0 30px;
+  color: #845937;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+a:visited {
+  color: #845937;
+}
