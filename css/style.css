@@ -29,7 +29,7 @@ body {
   height: 100%;
   border-top-left-radius: inherit;
   border-bottom-left-radius: inherit;
-  background-image: url("/img/background.png");
+  background-image: url(".../img/background.png");
   background-position: left -130px;
 }
 
